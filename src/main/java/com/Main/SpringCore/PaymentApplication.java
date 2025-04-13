@@ -49,7 +49,6 @@ public class PaymentApplication {
                 System.out.println("Invalid amount! Please enter an amount greater than zero.");
                 continue;
             }
-
             // Execute payment
             System.out.println(paymentContext.executePayment(selectedType, amount));
 
@@ -57,7 +56,6 @@ public class PaymentApplication {
             System.out.println("\nTransaction History:");
             paymentContext.showTransactionHistory();
         }
-
         scanner.close();
     }
 }
