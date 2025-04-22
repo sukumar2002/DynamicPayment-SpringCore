@@ -1,8 +1,6 @@
 package com.Payment.Implementations.SpringCore;
 
-
 import org.springframework.stereotype.Component;
-
 import com.PaymentInterface.SpringCore.PaymentGateway;
 
 @Component("upi")
@@ -13,4 +11,3 @@ public class UPI implements PaymentGateway {
         return "UPI payment of ₹" + amount + " processed successfully.";
     }
 }
-
