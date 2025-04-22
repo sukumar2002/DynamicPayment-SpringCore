@@ -1,7 +1,6 @@
 package com.Payment.Implementations.SpringCore;
 
 import org.springframework.stereotype.Component;
-
 import com.PaymentInterface.SpringCore.PaymentGateway;
 
 @Component("wallet")
